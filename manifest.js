@@ -1,128 +1,46 @@
-addEventListener("fetch", event => {
-  const data = {
-    name: "rafraf plage",
-    short_name: "rafraf plage",
-    description: "Install Now The Web Trick - Let's fuel creativity",
-    display: "standalone",
-    prefer_related_applications: false,
-    start_url: "\/?utm_source=homescreen",
-    scope: "\/",
-    background_color: "#ffd929",
-    theme_color: "#ffd929",
-    icons: [
-      {
-      src: "\/main\/android-icon-512x512.png",
-      sizes: "512x512",
-      type: "image\/png"
-      },
-      {
-      src: "\/main\/android-icon-192x192.png",
-      sizes: "192x192",
-      type: "image\/png"
-      },
-      {
-      src: "\/main\/apple-icon-144x144.png",
-      sizes: "144x144",
-      type: "image\/png"
-      },
-      {
-      src: "\/main\/android-icon-96x96.png",
-      sizes: "96x96",
-      type: "image\/png"
-      },
-      {
-      src: "\/main\/android-icon-72x72.png",
-      sizes: "72x72",
-      type: "image\/png"
-      },
-      {
-      src: "\/main\/android-icon-48x48.png",
-      sizes: "48x48",
-      type: "image\/png"
-      },
-      {
-      src: "\/main\/android-icon-36x36.png",
-      sizes: "36x36",
-      type: "image\/png"
-      }
-    ],
-    shortcuts: [
-      {
-      name: "The Web Trick",
-      short_name: "The Web Trick",
-      description: "The Best Website where you can find Blogger Widgets, Tech News, Tech Reviews, Coding related Tutorials and many more.",
-      url: "\/?utm_source=homescreen",
-      icons: [
-          {
-          src: "\/main\/android-icon-192x192.png",
-          sizes: "192x192"
-          }
-        ]
-      },
-      {
-      name: "The Web Trick - Blog",
-      short_name: "The Web Trick - Blog",
-      description: "Explore The Web Trick Blog.",
-      url: "\/search?utm_source=homescreen",
-      icons: [
-          {
-          src: "\/main\/android-icon-192x192.png",
-          sizes: "192x192"
-          }
-        ]
-      },
-      {
-      name: "Blogger Widgets",
-      short_name: "Blogger Widgets",
-      description: "Useful Widgets for your Blog.",
-      url: "\/search\/label\/Widgets?utm_source=homescreen",
-      icons: [
-          {
-          src: "\/main\/android-icon-192x192.png",
-          sizes: "192x192"
-          }
-        ]
-      }
-    ],
-    screenshots: [
-      {
-      src: "\/main\/scr1.png",
-      type: "image\/png",
-      sizes: "540x720"
-      },
-      {
-      src: "\/main\/scr2.png",
-      type: "image\/png",
-      sizes: "540x720"
-      },
-      {
-      src: "\/main\/scr3.png",
-      type: "image\/png",
-      sizes: "540x720"
-      },
-      {
-      src: "\/main\/scr4.png",
-      type: "image\/png",
-      sizes: "540x720"
-      },
-      {
-      src: "\/main\/scr5.png",
-      type: "image\/png",
-      sizes: "540x720"
-      }
-    ],
-    serviceworker: {
-      src: "\/sw.js"
+{
+  "name": "Rafraf Plage",
+  "short_name": "Rafraf Plage ",
+  "start_url": "https://www.rafrafplage.com",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#001eb3",
+  "description": "رفراف بلاج موقع إخباري جامع تجدون فيه أخر الأخبار الوطنية لحظة بلحظة و على مدار الساعة.و بث مباشر و صور حصرية لأجمل المناطق السياحية في رفراف بنزرت ...\n\n",
+  "icons": [
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwtj-aGPqgBqBeNL6aCISYYK9Hy5-fJQ8oJoseWr-Cosrn8BViPn7hVJYqqSBYxxRmBVu_myTWycIvtu0HJ4WoPMIoBHU8GQNHswp_Ew32zWx3vS2JQXyL-5bcpJzXTuy_Kt9r5w3QCW8L0U_IIvw6kI9QxjV1WsX7XFZchP7V_4pPEXfJ2chfNzOdDxnD/s48/ProfilePicturePhoto.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwtj-aGPqgBqBeNL6aCISYYK9Hy5-fJQ8oJoseWr-Cosrn8BViPn7hVJYqqSBYxxRmBVu_myTWycIvtu0HJ4WoPMIoBHU8GQNHswp_Ew32zWx3vS2JQXyL-5bcpJzXTuy_Kt9r5w3QCW8L0U_IIvw6kI9QxjV1WsX7XFZchP7V_4pPEXfJ2chfNzOdDxnD/s72/ProfilePicturePhoto.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwtj-aGPqgBqBeNL6aCISYYK9Hy5-fJQ8oJoseWr-Cosrn8BViPn7hVJYqqSBYxxRmBVu_myTWycIvtu0HJ4WoPMIoBHU8GQNHswp_Ew32zWx3vS2JQXyL-5bcpJzXTuy_Kt9r5w3QCW8L0U_IIvw6kI9QxjV1WsX7XFZchP7V_4pPEXfJ2chfNzOdDxnD/s96/ProfilePicturePhoto.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwtj-aGPqgBqBeNL6aCISYYK9Hy5-fJQ8oJoseWr-Cosrn8BViPn7hVJYqqSBYxxRmBVu_myTWycIvtu0HJ4WoPMIoBHU8GQNHswp_Ew32zWx3vS2JQXyL-5bcpJzXTuy_Kt9r5w3QCW8L0U_IIvw6kI9QxjV1WsX7XFZchP7V_4pPEXfJ2chfNzOdDxnD/s144/ProfilePicturePhoto.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwtj-aGPqgBqBeNL6aCISYYK9Hy5-fJQ8oJoseWr-Cosrn8BViPn7hVJYqqSBYxxRmBVu_myTWycIvtu0HJ4WoPMIoBHU8GQNHswp_Ew32zWx3vS2JQXyL-5bcpJzXTuy_Kt9r5w3QCW8L0U_IIvw6kI9QxjV1WsX7XFZchP7V_4pPEXfJ2chfNzOdDxnD/s168/ProfilePicturePhoto.png",
+      "sizes": "168x168",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwtj-aGPqgBqBeNL6aCISYYK9Hy5-fJQ8oJoseWr-Cosrn8BViPn7hVJYqqSBYxxRmBVu_myTWycIvtu0HJ4WoPMIoBHU8GQNHswp_Ew32zWx3vS2JQXyL-5bcpJzXTuy_Kt9r5w3QCW8L0U_IIvw6kI9QxjV1WsX7XFZchP7V_4pPEXfJ2chfNzOdDxnD/s192/ProfilePicturePhoto.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwtj-aGPqgBqBeNL6aCISYYK9Hy5-fJQ8oJoseWr-Cosrn8BViPn7hVJYqqSBYxxRmBVu_myTWycIvtu0HJ4WoPMIoBHU8GQNHswp_Ew32zWx3vS2JQXyL-5bcpJzXTuy_Kt9r5w3QCW8L0U_IIvw6kI9QxjV1WsX7XFZchP7V_4pPEXfJ2chfNzOdDxnD/s512/ProfilePicturePhoto.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
-  }
-
-  const json = JSON.stringify(data, null, 2)
-
-  return event.respondWith(
-    new Response(json, {
-      headers: {
-        "content-type": "application/json;charset=UTF-8"
-      }
-    })
-  )
-})
+  ]
+}
